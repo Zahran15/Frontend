@@ -15,9 +15,8 @@ services:
     environment:
       - APP_ENV=local
       - APP_DEBUG=true
-      - APP_KEY=base64:PClyPb6YPeKOB60ulKTfM7aLwc+wpJJ+yZMRBzb4BMw=base64:iNL5CbyEh9MI2V9KAo9SUFlQB53mSMOHEfkKeNTuqFM=
-      - DB_CONNECTION=mysql
-      - DB_HOST=db
+      - APP_KEY=base64:TnpAtiuqWY+zxiDI1RKnk9DxNLV8aMFekZPAE75lm2c=
+      - DB_HOST=laravel_db
       - DB_PORT=3307
 
   db:
